@@ -1,5 +1,5 @@
 from flask import Blueprint, render_template, request, redirect, url_for
-import mysql
+from db import mysql
 from werkzeug.security import generate_password_hash, check_password_hash
 
 
